@@ -1,0 +1,40 @@
+.cabecalho{
+    align-items: center;
+}
+.cabacalho_informacoes{
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho_horario{
+    margin: 1em;
+    color: var(--preto);
+    font-weight: 400;
+    
+}
+
+.cabecalho_icones{
+    margin: 0 1.5em;
+}
+
+
+.consulta_medica{
+    display: flex;
+}
+
+.foto_medica{
+    margin: 1.5em;
+}
+
+.nome_medica{
+    margin: 2em .2em;
+}
+
+.mensagem_medica{
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cinza);
+}
+
+.numero_consultas{
+    font-weight: 400;
+}
