@@ -1,0 +1,68 @@
+.informacoes_paciente{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto_paciente{
+    padding: 1.5em;
+    
+}
+.nome_paciente{
+    font-weight: 700;
+    color: var(--cinza);
+}
+
+.chat{
+    margin-left: 7em;
+}
+
+.tipo_consulta{
+    display: flex;
+    margin-top: .5em;
+}
+.local{
+    padding-right: .5em;
+}
+.texto_consulta{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.data{
+    margin: .5em 2em;
+}
+.botoes{
+    margin: 2em;
+}
+.ligar_video{
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--amarelo);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 10em 0;
+}
+
+.ligar_audio{
+    text-decoration: none;
+    color: var(--cinza);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 10em 0;
+}
+
+.endereco_botao{
+    width: 80%;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--azul);
+}
+
+.endereco{
+    color: var(--branco);
+    text-decoration: none;
+
+}
