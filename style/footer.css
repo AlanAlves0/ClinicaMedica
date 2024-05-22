@@ -1,0 +1,11 @@
+.bota_flutuante{
+    position: fixed;
+    top: 80%;
+    right: 0;
+}
+.menu-rodape{
+    position: fixed;
+    top: 90%;
+    width: 100%;
+}
+

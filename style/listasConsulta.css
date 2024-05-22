@@ -16,6 +16,12 @@
 .chat{
     margin-left: 7em;
 }
+.dia_consulta{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cinza);
+    margin: 0 1em;
+}
 
 .tipo_consulta{
     display: flex;
@@ -66,3 +72,7 @@
     text-decoration: none;
 
 }
+.lista_consultas{
+    margin: 2em 0;
+}
+
