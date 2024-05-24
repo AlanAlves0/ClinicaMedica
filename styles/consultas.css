@@ -134,10 +134,19 @@
 
 @media screen and (min-width: 768px){
   .consultas ul{
-   display: flexbox;
+    width: 0 2em;
+   display: flex;
    flex-direction: row;
    flex-wrap: wrap;
 
   
   }
+}
+
+@media screen and (min-width:1440px){
+  .consultas li{
+    margin: 0 4em;
+    flex-wrap: wrap;
+  }
+  
 }
